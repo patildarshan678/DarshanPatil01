@@ -1,0 +1,20 @@
+.home_container
+{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Make the body fill the entire viewport height */
+    text-align: center;
+}
+.home_container .start_btn
+{
+    padding: 10px 20px; /* Adjust padding as needed */
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Add some border radius for rounded corners */
+    font-size: 16px; /* Adjust font size as needed */
+    cursor: pointer;
+}
